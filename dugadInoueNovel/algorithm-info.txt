@@ -1,0 +1,16 @@
+dugad/dugad.m
+Implements Dugad's additive and blind watermarking algorithm.
+
+inoue/IN2.m
+Inoue, method B, watermarking algorithm. The same watermark is
+embedded into the detail subbands of the wavelet transform. 
+The user selects which subbands to use for watermark insertion.
+Quantization based.
+
+novel/IN7.m
+The novel watermarking method. Unlike the Inoue system, this system
+works blindly (doesn't require a position file in order to recover
+the watermark). Can survive the same attacks as the
+Dugad watermarking system, but does not degrade the marked image 
+to the same extent. Quantization based.
+
